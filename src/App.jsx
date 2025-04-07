@@ -5,6 +5,7 @@ import "font-awesome/css/font-awesome.min.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader"; // Import the Preloader component
+import { ToastContainer } from "react-toastify";
 
 function App() {
     const [isLoading, setIsLoading] = useState(true);
@@ -34,6 +35,7 @@ function App() {
                 <AppRoutes />
                 <Footer />
             </Routes>
+            <ToastContainer />
         </>
     );
 }

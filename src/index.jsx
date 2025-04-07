@@ -8,6 +8,7 @@ import "./assets/css/all.min.css";
 import "./assets/css/animate.css";
 import "./assets/css/default.css";
 import "./assets/css/responsive.css";
+import "react-toastify/dist/ReactToastify.css";
 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
