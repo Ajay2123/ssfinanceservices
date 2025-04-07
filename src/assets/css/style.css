@@ -1837,7 +1837,7 @@ header .header-top .header-info-right ul li i {
 
 .banner-area-2 {
   background-image: url(../img/banner/bg-img-2.png), linear-gradient(to right, #fff, #fffdf7);
-  background-position: center;
+  background-position: 0px -625px;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;

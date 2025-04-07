@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../../../assets/img/banner/house-protection-bank_1150-12959.jpg";
+import banner from "../../../assets/img/banner/glass-jar-full-money-front-decreasing-stacked-coins-against-white-background.jpg";
 
 export default function Banner() {
     return (
@@ -9,7 +9,7 @@ export default function Banner() {
                 style={{ backgroundImage: `url(${banner})` }}
             >
                 <div className="container">
-                    <div className="row align-items-center pt-130 pb-140">
+                    <div className="row align-items-center pt-150 pb-140">
                         <div className="col-xl-6 col-lg-8">
                             <div className="banner-content py-5">
                                 <div className="section-title text-start">
@@ -24,16 +24,6 @@ export default function Banner() {
                                         different
                                     </h1>
                                 </div>
-                                <a
-                                    className="theme-btn-2 theme-btn-primary mt-45 wow fadeInUp"
-                                    data-wow-delay="0.4s"
-                                    href="#"
-                                >
-                                    <span className="arrow">
-                                        <span className="horizontal-line"></span>
-                                    </span>
-                                    View our 2019 Annual Report
-                                </a>
                             </div>
                         </div>
                     </div>
