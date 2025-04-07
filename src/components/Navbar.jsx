@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import _404_three from "../assets/img/logo/115x40.svg";
+import logo from "../assets/img/logo/115x40.svg";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,8 +24,8 @@ const Navbar = () => {
                         <Link className="navbar-brand sticky_logo" to="/">
                             <img
                                 className="main"
-                                src={_404_three}
-                                srcSet={_404_three}
+                                src={logo}
+                                srcSet={logo}
                                 alt="logo"
                             />
                         </Link>
