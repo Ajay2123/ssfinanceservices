@@ -95,7 +95,9 @@ export default function Contact() {
                                         </div>
                                         <div>
                                             <p>Email us:</p>
-                                            <span>hello@banca.com</span>
+                                            <span>
+                                                contact@ssfinancialservices.com
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
