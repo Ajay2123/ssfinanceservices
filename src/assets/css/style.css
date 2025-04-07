@@ -4423,10 +4423,14 @@ header .header-top .header-info-right ul li i {
 .about-area-2 .sms-flow .msg-1 {
   top: 22px;
   right: 0;
+  height:auto;
+  max-height: 275px;
 }
 .about-area-2 .sms-flow .msg-3 {
   bottom: 0;
   left: 0;
+  height: auto;
+  max-height: 185px;
 }
 .about-area-2 .sms-flow .arrow-1 {
   top: 23%;
@@ -4434,7 +4438,7 @@ header .header-top .header-info-right ul li i {
   z-index: 2;
 }
 .about-area-2 .sms-flow .arrow-2 {
-  bottom: 28%;
+  bottom:32%;
   left: 62%;
   z-index: 3;
 }
