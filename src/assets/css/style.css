@@ -35,13 +35,13 @@ Table of Content:
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
 :root {
-  --theme-color: #6d27e5;
+  --theme-color: #171d24;
   --theme-title-color: #171d24;
   --theme-text-color: #6a737c;
   --theme-border-color: #dde1e5;
   --theme-dropshadow: 0 0.5px 1px 0 rgba(51, 77, 114, 0.1),
     0px 1.6px 3.6px 0 rgba(51, 77, 114, 0.15);
-  --brand_color: #0050b2;
+  --brand_color: #18cb96;
   --secondary_color: var(--theme-title-color);
   --p_color: #4c5267;
   --gradient_bg_color1: var(--gradient_bg_color-from, #fffbf2);
@@ -1156,7 +1156,7 @@ header .header-top .header-info-right ul li i {
 
 .header-menu {
   z-index: 1;
-  background-color: transparent;
+  background-color:  transparent;
   transition: all 0.2s linear;
 }
 .header-menu.header-menu-4 .theme-btn:hover {
@@ -1180,7 +1180,7 @@ header .header-top .header-info-right ul li i {
 }
 .header-menu.navbar_fixed.header-menu-1 .theme-btn, .header-menu.navbar_fixed.header-menu-3 .theme-btn, .header-menu.navbar_fixed.header-menu-4 .theme-btn {
   background-color: var(--theme-color);
-  color: #fff;
+  color: var(--theme-color);
 }
 .header-menu.navbar_fixed.header-menu-1 .navbar .menu > .nav-item .mobile_dropdown_icon:hover, .header-menu.navbar_fixed.header-menu-3 .navbar .menu > .nav-item .mobile_dropdown_icon:hover, .header-menu.navbar_fixed.header-menu-4 .navbar .menu > .nav-item .mobile_dropdown_icon:hover {
   color: var(--theme-color);
@@ -1257,7 +1257,7 @@ header .header-top .header-info-right ul li i {
 }
 .header-menu .menu > .nav-item > .nav-link {
   font-size: 14px;
-  color: #fff;
+  color: var(--theme-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   position: relative;
@@ -1272,7 +1272,7 @@ header .header-top .header-info-right ul li i {
   height: 5px;
   width: 5px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: var(--theme-color);
 }
 .header-menu .menu > .nav-item > .nav-link::after {
   display: none;
@@ -1548,7 +1548,7 @@ header .header-top .header-info-right ul li i {
   left: 0;
   margin: 4px 0;
   display: block;
-  background: #fff;
+  background: var(--theme-color);
   border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -1582,7 +1582,7 @@ header .header-top .header-info-right ul li i {
 }
 .menu_toggle .hamburger-cross span {
   display: block;
-  background: #fff;
+  background: var(--theme-color);
   border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;

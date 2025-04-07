@@ -14,7 +14,7 @@ function App() {
         const handleWindowLoad = () => {
             setTimeout(() => {
                 setIsLoading(false);
-            }, 100000); // Delay before removing the preloader
+            }, 1000); // Delay before removing the preloader
         };
 
         window.addEventListener("load", handleWindowLoad);
