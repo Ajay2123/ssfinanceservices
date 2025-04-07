@@ -9,6 +9,8 @@ import "./assets/css/animate.css";
 import "./assets/css/default.css";
 import "./assets/css/responsive.css";
 import "react-toastify/dist/ReactToastify.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
