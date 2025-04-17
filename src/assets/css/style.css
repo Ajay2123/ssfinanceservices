@@ -404,7 +404,7 @@ input::-webkit-inner-spin-button {
   left: -4px;
   width: calc(100% + 8px);
   bottom: 7px;
-  background-color: #72b1ff;
+  background-color:  var(--brand_color);
   z-index: -1;
   height: 27%;
 }
@@ -2227,7 +2227,6 @@ header .header-top .header-info-right ul li i {
 }
 
 .banner-area-6 {
-  background-color: #cae8f2;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -5375,7 +5374,7 @@ header .header-top .header-info-right ul li i {
   margin-right: 8px;
 }
 .calculator-widget-2 .graph-indicator span.orange-dot {
-  background-color: #f97857;
+  background-color: #FA2A55;
 }
 .calculator-widget-2 .loan-calculation {
   margin-top: 45px;
@@ -6328,6 +6327,7 @@ header .header-top .header-info-right ul li i {
   border: none;
   position: relative;
   z-index: 1;
+  border-radius: 50%;
 }
 .client-slider-2 .slick-dots li button::after {
   content: "";
@@ -6344,14 +6344,14 @@ header .header-top .header-info-right ul li i {
 }
 .client-slider-2 .single-client {
   padding: 30px;
+  height:310px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  margin: 55px 10px;
-  margin-bottom: 70px;
-  border-radius: 8px;
+  margin-right: 55px;
+  border-radius: 15px;
   background-color: var(--bs-white);
 }
 .client-slider-2 .single-client:hover {
