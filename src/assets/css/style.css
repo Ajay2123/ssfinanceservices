@@ -404,7 +404,7 @@ input::-webkit-inner-spin-button {
   left: -4px;
   width: calc(100% + 8px);
   bottom: 7px;
-  background-color: #72b1ff;
+  background-color:  var(--brand_color);
   z-index: -1;
   height: 27%;
 }
@@ -5374,7 +5374,7 @@ header .header-top .header-info-right ul li i {
   margin-right: 8px;
 }
 .calculator-widget-2 .graph-indicator span.orange-dot {
-  background-color: #f97857;
+  background-color: #FA2A55;
 }
 .calculator-widget-2 .loan-calculation {
   margin-top: 45px;

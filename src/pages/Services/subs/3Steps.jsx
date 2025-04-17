@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Services() {
+function ThreeSteps() {
     return (
         <div>
             <section id="feature" class="steps-area pt-115 pb-105 bg-white">
@@ -8,9 +8,9 @@ export default function Services() {
                     <div class="row">
                         <div class="col-lg-6 mx-auto  pb-55">
                             <div class="section-title">
-                                <span class="short-title-2">_OUR PROCESS</span>
+                                <span class="short-title-2">OUR PROCESS</span>
                                 <h1 class="wow fadeInUp">
-                                    3 <span class="underline-shape">steps</span>{" "}
+                                    3 <span class="underline-shape">steps</span>
                                     to follow
                                 </h1>
                                 <p class="wow fadeInUp" data-wow-delay="0.3s">
@@ -70,3 +70,5 @@ export default function Services() {
         </div>
     );
 }
+
+export default ThreeSteps;
