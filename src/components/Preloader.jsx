@@ -12,7 +12,7 @@ const Preloader = () => {
                     </div>
                 </div>
                 <h2 className="head">Did You Know?</h2>
-                <p>Some interesting fact or information goes here.</p>
+                <p>We are legally authorized to facilitate loan processes.</p>
             </div>
         </div>
     );
