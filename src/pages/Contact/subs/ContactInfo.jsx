@@ -30,7 +30,7 @@ export default function ContactInfo() {
                         </div>
                         <div>
                             <p>Email us:</p>
-                            <span>hello@banca.com</span>
+                            <span>hello@ssfinancialservices.com</span>
                         </div>
                     </div>
                 </div>
